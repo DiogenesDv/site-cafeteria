@@ -88,3 +88,27 @@
     background-color: #604829;
     color: white;
 }
+
+/* Efeitos aplicados aos contêineres que contêm texto informativo */
+.container-texto{
+    padding: 80px 5px;
+    text-align: center;
+    background-color: #f4f4f4;
+}
+.container-texto p{
+    max-width: 1024px;
+    padding: 10px 20px;
+    margin: 0 auto;
+    font-family: "Lato", sans-serif;
+    line-height: 34px;
+    letter-spacing: 1px;
+    color: #666;
+}
+
+/* 4° imagem com o efeito parallax */
+.container-paralax4{
+    border: 2px solid red;
+    background-image: url("../assets/parallax-imagem4.png");
+    height: 100vh;
+}
+
